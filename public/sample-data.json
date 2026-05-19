@@ -1,0 +1,49 @@
+{
+  "databases": [
+    {
+      "name": "PostgreSQL Production",
+      "type": "SQL",
+      "size_gb": 125.5,
+      "tables": 45,
+      "connections": 1250,
+      "performance": 95
+    },
+    {
+      "name": "MongoDB Atlas",
+      "type": "NoSQL",
+      "size_gb": 89.2,
+      "tables": 12,
+      "connections": 850,
+      "performance": 92
+    },
+    {
+      "name": "MySQL Backup",
+      "type": "SQL",
+      "size_gb": 210.8,
+      "tables": 78,
+      "connections": 450,
+      "performance": 88
+    },
+    {
+      "name": "Redis Cache",
+      "type": "NoSQL",
+      "size_gb": 15.3,
+      "tables": 5,
+      "connections": 2100,
+      "performance": 98
+    },
+    {
+      "name": "Elasticsearch",
+      "type": "Search",
+      "size_gb": 45.6,
+      "tables": 8,
+      "connections": 600,
+      "performance": 93
+    }
+  ],
+  "metrics": {
+    "total_queries": 50000,
+    "avg_response_time_ms": 45,
+    "uptime_percentage": 99.9
+  }
+}
